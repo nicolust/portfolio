@@ -1,0 +1,28 @@
+/* Ensure full page height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main wrapper for the page */
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Makes sure it takes full screen height */
+  }
+  
+  /* Pushes footer to bottom */
+  .content {
+    flex: 1; /* Fills remaining space */
+  }
+  
+  /* Footer styling */
+  .footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    position: relative;
+  }

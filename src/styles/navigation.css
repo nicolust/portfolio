@@ -18,7 +18,7 @@
 }
 
 .nav-button:hover {
-    background-color: burlywood;
+    background-color: #f6cea5;
     transition: 0.7s;
 }
 
@@ -34,12 +34,13 @@
 
 .pagename {
     font-family: "Doto", sans-serif;
+    color: black;
     -webkit-text-stroke: 1px;
     padding-right: 16px;
 }
 
 .nav-button.active {
-    background-color: #ffcc00; /* Highlight color */
+    background-color: #ee9f96; /* Highlight color */
     color: black;
     font-weight: bold;
   }
