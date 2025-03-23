@@ -36,7 +36,10 @@
     font-family: "Doto", sans-serif;
     color: black;
     -webkit-text-stroke: 1px;
-    padding-right: 16px;
+    padding: 10px;
+    background-color: #f6cea5;
+
+    border-style: solid;
 }
 
 .nav-button.active {

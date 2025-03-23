@@ -1,28 +1,20 @@
-/* Ensure full page height */
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Main wrapper for the page */
-  .main-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* Makes sure it takes full screen height */
-  }
-  
-  /* Pushes footer to bottom */
-  .content {
-    flex: 1; /* Fills remaining space */
-  }
-  
-  /* Footer styling */
-  .footer {
-    background-color: #222;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    width: 100%;
-    position: relative;
-  }
+.FooterBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+
+  background-color: #f6cea5;
+  margin-top: 16px;
+  width: 79%;
+  margin-left: 10%;
+
+  border-style: solid;
+  border-radius: 16px;
+
+  margin-bottom: 16px;
+}
+
+.FooterBox p {
+  font-family: Arial, Helvetica, sans-serif;
+}

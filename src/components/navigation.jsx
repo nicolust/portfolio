@@ -29,11 +29,6 @@ function NavigationBar() {
           <h1>About Me</h1>
         </button>
       </Link>
-      <Link to="/copyright" className="nav-link">
-        <button className={`nav-button ${location.pathname === "/copyright" ? "active" : ""}`}>
-          <h1>Copyright</h1>
-        </button>
-      </Link>
     </div>
   );
 }

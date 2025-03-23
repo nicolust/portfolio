@@ -32,6 +32,10 @@
     -webkit-text-stroke: 1px;
 }
 
+.Texts h2 {
+    font-family: "Doto", sans-serif;
+    -webkit-text-stroke: 1px;
+}
 .sidebar {
     justify-content: right;
     align-items: right;
@@ -43,7 +47,7 @@
 .sidebar button {
     border-radius: 16px;
     margin-top: 10%;
-    height: 25%;
+    height: 100px;
     font-size: 30px;
     font-family: "Doto", sans-serif;
     -webkit-text-stroke: 1px;
