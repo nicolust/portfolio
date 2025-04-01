@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-// https://vite.dev/config/
+// Check if we're in production (on GitHub Pages)
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio/', // Tämä varmistaa oikean polun
-})
+  base: '/portfolio',
+});

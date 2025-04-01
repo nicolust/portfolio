@@ -10,14 +10,15 @@ import PortfolioPage from "./pages/portfolio";
 
 function App() {
   return (
-    <Router basename="/portfolio">
+    <Router>
       <NavigationBar />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/portfolio" element={<HomePage />} />
         <Route path="/portfoliopage" element={<PortfolioPage />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
