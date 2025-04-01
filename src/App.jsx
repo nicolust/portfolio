@@ -7,20 +7,18 @@ import Footer from "./components/footer";
 import './styles/App.css';
 import PortfolioPage from "./pages/portfolio";
 
+
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <NavigationBar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/portfolio" element={<PortfolioPage />} />
-          <Route path="/blog" element={<BlogPage />}></Route>
-          <Route path="/about" element={<AboutPage />}></Route>
-        </Routes>
-        <Footer></Footer>
-      </Router>
-    </div>
+    <Router basename="/portfolio">
+      <NavigationBar />
+      <Routes>
+        <Route path="" element={<HomePage />} />
+        <Route path="/portfoliopage" element={<PortfolioPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/about" element={<AboutPage />} />
+      </Routes>
+    </Router>
   );
 }
 
