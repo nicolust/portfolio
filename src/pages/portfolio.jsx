@@ -2,12 +2,17 @@ import React from "react";
 import Posts from "../components/Posts";
 import BlogNav from "../components/blognav";
 
-const BlogPage = () => {
+function PortfolioPage () {
     return (
-        <div className="main-container" style={{backgroundColor: "aliceblue"}}>
-            <BlogNav />
-            <Posts />
-        </div>
+        <div className="mainScreen">
+        <div className="Content">
+            <div className="Texts">
+                <h1>Portfolio</h1>
+                
+
+                </div>
+                </div>
+            </div>
     );
 };
 

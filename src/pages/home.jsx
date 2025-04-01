@@ -8,7 +8,7 @@ function HomePage() {
         <div className="mainScreen"></div>
         <div className="Content">
           <div className="TextsNoSidebar">
-            <h1>Welcome!</h1>
+            <h1>Hello world!</h1>
             <p>
               <b>Lustin Luola</b> is a website created by me, Nico Lust, to showcase my
               skills on the field of <b>Information Technology.</b>
@@ -16,16 +16,31 @@ function HomePage() {
 
           <h2>What does this website include?</h2>
           <p>
-            <b>Portfolio: </b> A showcase of my previous projects
+            <b>Portfolio: </b>
+            A showcase of my previous projects. This contains my solo projects AND group projects, which I have 
+            taken part of. Most of the projects on my portfolio will have a link to their 
+            GitHub repository, if it is made public.
 
-            <br></br>
+            <br></br><br></br>
 
-            <b>About me: </b> Information about who I am and what I can do. My contact information is also here.
+            <b>About me: </b>
+            Information about who I am and what I can do. This page also contains the links to my GitHub and LinkedIn -profiles. 
+
 
 
           </p>
 
           <h2>What's new?</h2>
+
+          <div className="NewsBox">
+
+            <h4>1.4.2025</h4>
+            <p>News box added! Currently the site is not public, and the pages are still very much in progress. 
+              Only the "About me" -page is well done. The CSS is a horrendous mess, but I plan on cleaning that 
+              up later!
+            </p>
+
+          </div>
 
           </div>
         </div>

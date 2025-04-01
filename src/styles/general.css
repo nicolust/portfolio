@@ -41,13 +41,14 @@
     padding-left: 5%;
     flex-direction: column; /* Stacks items vertically */
     width: 800%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .TextsNoSidebar p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size: 18px;
-    padding-right: 30%;
 }
 
 .TextsNoSidebar h1 {
@@ -87,6 +88,23 @@
     font-size: 18px;
 }
 .sidebar img {
+    border: solid;
     margin-top: 10%;
     width: 100%;
+}
+
+.NewsBox {
+    height: 120px;
+    border: solid;
+    border-radius: 16px;
+    overflow: auto;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    background-color: #f6cea5;
+}
+
+.NewsBox h4 {
+    font-family: "Doto", sans-serif;
+    -webkit-text-stroke: 1px;
+    font-size: 24px;
 }
