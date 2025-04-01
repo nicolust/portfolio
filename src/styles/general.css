@@ -17,7 +17,7 @@
 .Texts {
     padding-left: 1vw;
     flex-direction: column; /* Stacks items vertically */
-    width: 800%;
+    width: 80vw;
 }
 
 .Texts p {
@@ -112,11 +112,21 @@
     @media only screen and (max-width: 600px) {
         .Content {
             width: 92vw;
-            margin-left: 4vw;
+            margin-left: 2vw;
+            margin-right: 4vw;
             display: grid;
         }
 
         .Texts {
+            width: 96vw;
+        }
+
+        .TextsNoSidebar {
+            padding: 1vw;
             width: 92vw;
+        }
+
+        .NewsBox {
+            margin: 0%;
         }
 }
