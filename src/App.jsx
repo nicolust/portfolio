@@ -13,10 +13,10 @@ function App() {
     <Router>
       <NavigationBar />
       <Routes>
-        <Route path="/portfolio" element={<HomePage />} />
-        <Route path="/portfoliopage" element={<PortfolioPage />} />
-        <Route path="/blog" element={<BlogPage />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/portfolio/" element={<HomePage />} />
+        <Route path="/portfolio/showcase" element={<PortfolioPage />} />
+        <Route path="/portfolio/blog" element={<BlogPage />} />
+        <Route path="/portfolio/about" element={<AboutPage />} />
       </Routes>
       <Footer />
     </Router>
