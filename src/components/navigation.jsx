@@ -19,11 +19,6 @@ function NavigationBar() {
           <h1>Portfolio</h1>
         </button>
       </Link>
-      <Link to="/blog" className="nav-link">
-        <button className={`nav-button ${location.pathname === "/blog" ? "active" : ""}`}>
-          <h1>Blog</h1>
-        </button>
-      </Link>
       <Link to="/about" className="nav-link">
         <button className={`nav-button ${location.pathname === "/about" ? "active" : ""}`}>
           <h1>About Me</h1>

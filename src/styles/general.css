@@ -9,8 +9,8 @@
     border-width: 2px;
     background-color: #feffb5;
     display: flex;
-    width: 75%;
-    margin-left: 160px;
+    width: 80%;
+    margin-left: 10%;
     border-radius: 16px;
 }
 
@@ -36,6 +36,30 @@
     font-family: "Doto", sans-serif;
     -webkit-text-stroke: 1px;
 }
+
+.TextsNoSidebar {
+    padding-left: 5%;
+    flex-direction: column; /* Stacks items vertically */
+    width: 800%;
+}
+
+.TextsNoSidebar p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 18px;
+    padding-right: 30%;
+}
+
+.TextsNoSidebar h1 {
+    font-family: "Doto", sans-serif;
+    -webkit-text-stroke: 1px;
+}
+
+.TextsNoSidebar h2 {
+    font-family: "Doto", sans-serif;
+    -webkit-text-stroke: 1px;
+}
+
 .sidebar {
     justify-content: right;
     align-items: right;
