@@ -10,12 +10,12 @@
     background-color: #feffb5;
     display: flex;
     width: 80%;
-    margin-left: 10%;
+    margin-left: 10vw;
     border-radius: 16px;
 }
 
 .Texts {
-    padding-left: 5%;
+    padding-left: 1vw;
     flex-direction: column; /* Stacks items vertically */
     width: 800%;
 }
@@ -107,4 +107,16 @@
     font-family: "Doto", sans-serif;
     -webkit-text-stroke: 1px;
     font-size: 24px;
+}
+
+    @media only screen and (max-width: 600px) {
+        .Content {
+            width: 92vw;
+            margin-left: 4vw;
+            display: grid;
+        }
+
+        .Texts {
+            width: 92vw;
+        }
 }
