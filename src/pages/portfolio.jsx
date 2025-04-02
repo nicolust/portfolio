@@ -8,7 +8,7 @@ function PortfolioPage () {
     return (
         <div className="mainScreen">
         <div className="PortfolioContent">
-            <div className="PortfolioText">
+            <div className="Title">
                 <h1>Portfolio</h1>
                 </div>
             <div className="PortfolioItems">
@@ -25,9 +25,10 @@ function PortfolioPage () {
                     <img src={LustinLuola}></img>
                     <h2>Lustin Luola</h2>
                     <h3>Solo, Web</h3>
-                    <p>A website portfolio to showcase my skills on the field of IT.</p>
+                    <p>A website portfolio to showcase my skills on the field of IT. Created using React with Vite and JavaScript. </p>
                     <button>Read more!</button>
                 </div>
+
 
             </div>
                 </div>

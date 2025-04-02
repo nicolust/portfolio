@@ -1,8 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Check if we're in production (on GitHub Pages)
 export default defineConfig({
   plugins: [react()],
-  base: '/portfolio',
+  server: {
+    historyApiFallback: true,
+    hmr: true, // Hot Module Replacement for a better dev experience
+  },
+  build: {
+    outDir: "dist",
+  },
 });

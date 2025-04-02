@@ -8,7 +8,7 @@ function HomePage() {
         <div className="mainScreen"></div>
         <div className="Content">
           <div className="TextsNoSidebar">
-            <h1>Hello world!</h1>
+            <div className="Title"><h1>Hello world!</h1></div>
             <p>
               <b>Lustin Luola</b> is a website created by me, Nico Lust, to showcase my
               skills on the field of <b>Information Technology.</b>
