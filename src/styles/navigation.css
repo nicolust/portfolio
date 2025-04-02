@@ -27,7 +27,7 @@
 }
 
 .nav-button h1 {
-    font-size: 200%;
+    font-size: 2vw;
     font-family: "Doto", sans-serif;
     -webkit-text-stroke: 0.5px;
 }
@@ -60,6 +60,6 @@
     }
 
     .nav-button h1 {
-        font-size: 180%;
+        font-size: 130%;
     }
   }

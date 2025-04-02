@@ -34,6 +34,13 @@ function HomePage() {
 
           <div className="NewsBox">
 
+            <h4>2.4.2025</h4>
+            <p>The website is now public on GitHub pages! Project cards
+              added to the "Portfolio" -page, for Lustin Luola and for 
+              an upcoming 2D Shoot 'em up -game. Right now the "Read more" -buttons 
+              don't do anything, but I'll make a new page for each project later.
+            </p>
+
             <h4>1.4.2025</h4>
             <p>News box added! Currently the site is not public, and the pages are still very much in progress. 
               Only the "About me" -page is well done. The CSS is a horrendous mess, but I plan on cleaning that 
