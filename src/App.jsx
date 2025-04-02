@@ -1,25 +1,28 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NavigationBar from "./components/navigation";
 import HomePage from "./pages/home";
-import BlogPage from "./pages/blog";
 import AboutPage from "./pages/about";
 import Footer from "./components/footer";
 import './styles/App.css';
 import PortfolioPage from "./pages/portfolio";
 
+import LustinLuolaPage from "./pages/LustinLuola";
+
+import { HashRouter } from "react-router-dom";
+
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <NavigationBar />
       <Routes>
-        <Route path="/portfolio/" element={<HomePage />} />
-        <Route path="/portfolio/showcase" element={<PortfolioPage />} />
-        <Route path="/portfolio/blog" element={<BlogPage />} />
-        <Route path="/portfolio/about" element={<AboutPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/works" element={<PortfolioPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/works/lustinluola" element={<LustinLuolaPage />} />
       </Routes>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 

@@ -9,18 +9,18 @@ function NavigationBar() {
       <div className="pagename">
         <h1>Lustin Luola</h1>
       </div>
-      <Link to="/portfolio/" className="nav-link">
-        <button className={`nav-button ${location.pathname === "/portfolio/" ? "active" : ""}`}>
+      <Link to="/" className="nav-link">
+        <button className={`nav-button ${location.pathname === "/" ? "active" : ""}`}>
           <h1>Home</h1>
         </button>
       </Link>
-      <Link to="/portfolio/showcase" className="nav-link">
-        <button className={`nav-button ${location.pathname === "/portfolio/showcase" ? "active" : ""}`}>
+      <Link to="/works" className="nav-link">
+        <button className={`nav-button ${location.pathname === "/#/works" ? "active" : ""}`}>
           <h1>Portfolio</h1>
         </button>
       </Link>
-      <Link to="/portfolio/about" className="nav-link">
-        <button className={`nav-button ${location.pathname === "/portfolio/about" ? "active" : ""}`}>
+      <Link to="/about" className="nav-link">
+        <button className={`nav-button ${location.pathname === "/#/about" ? "active" : ""}`}>
           <h1>About Me</h1>
         </button>
       </Link>

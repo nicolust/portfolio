@@ -1,8 +1,7 @@
 import React from "react";
-import Posts from "../components/Posts";
-import BlogNav from "../components/blognav";
 import LustinLuola from "../assets/LustinLuola2.png"
 import ShootEmUp from "../assets/ShootEmUp1.png"
+import { Link, useLocation } from "react-router-dom";
 
 function PortfolioPage () {
     return (
@@ -26,7 +25,13 @@ function PortfolioPage () {
                     <h2>Lustin Luola</h2>
                     <h3>Solo, Web</h3>
                     <p>A website portfolio to showcase my skills on the field of IT. Created using React with Vite and JavaScript. </p>
-                    <button>Read more!</button>
+
+                    <Link to="/works/lustinluola" className="nav-link">
+                        <button>
+                        Read more
+                        </button>
+                      </Link>
+
                 </div>
 
 
