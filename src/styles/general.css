@@ -9,19 +9,22 @@
     border-width: 2px;
     background-color: #feffb5;
     display: flex;
+    flex-wrap: wrap;
     width: 80vw;
     margin-left: 10vw;
     border-radius: 16px;
 }
 
 .Texts {
+    display: flex;
+    justify-content: center;
     padding-left: 1vw;
     flex-direction: column; /* Stacks items vertically */
-    width: 100%;
+    width: 55vw;
     margin-right: 1vw;
 }
 
-.Texts p {
+p, .LinkText {
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     font-size: 18px;
@@ -51,12 +54,7 @@
     font-size: 18px;
 }
 
-.TextsNoSidebar h1 {
-    font-family: "Doto", sans-serif;
-    -webkit-text-stroke: 1px;
-}
-
-.TextsNoSidebar h2 {
+.TextsNoSidebar h1, .TextsNoSidebar h2, .sidebar h2, h2 {
     font-family: "Doto", sans-serif;
     -webkit-text-stroke: 1px;
 }
@@ -66,7 +64,6 @@
     align-items: right;
     display: flex;
     width: 20vw;
-    padding-right: 5vw;
     flex-direction: column;
 }
 
@@ -171,6 +168,12 @@ button:hover {
     -webkit-text-stroke: 1px;
 }
 
+.ProjectPhoto {
+    align-self: center;
+    width: 90%;
+    border: solid;
+}
+
     @media only screen and (max-width: 600px) {
         .PortfolioContent, .Content {
             width: 92vw;
@@ -189,7 +192,7 @@ button:hover {
 
         .Texts {
             padding: 1vw;
-            width: 92vw;
+            width: 91vw;
         }
 
         .TextsNoSidebar {

@@ -15,12 +15,12 @@ function App() {
   return (
     <HashRouter>
       <NavigationBar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/works" element={<PortfolioPage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/works/lustinluola" element={<LustinLuolaPage />} />
-      </Routes>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/works" element={<PortfolioPage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/works/lustinluola" element={<LustinLuolaPage />} />
+        </Routes>
       <Footer />
     </HashRouter>
   );

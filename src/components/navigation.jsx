@@ -15,12 +15,12 @@ function NavigationBar() {
         </button>
       </Link>
       <Link to="/works" className="nav-link">
-        <button className={`nav-button ${location.pathname === "/#/works" ? "active" : ""}`}>
+        <button className={`nav-button ${location.pathname === "/works" ? "active" : ""}`}>
           <h1>Portfolio</h1>
         </button>
       </Link>
       <Link to="/about" className="nav-link">
-        <button className={`nav-button ${location.pathname === "/#/about" ? "active" : ""}`}>
+        <button className={`nav-button ${location.pathname === "/about" ? "active" : ""}`}>
           <h1>About Me</h1>
         </button>
       </Link>

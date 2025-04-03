@@ -11,7 +11,7 @@ function HomePage() {
             <div className="Title"><h1>Hello world!</h1></div>
             <p>
               <b>Lustin Luola</b> is a website created by me, Nico Lust, to showcase my
-              skills on the field of <b>Information Technology.</b>
+              works on the field of <b>Information Technology.</b>
             </p>
 
           <h2>What does this website include?</h2>
