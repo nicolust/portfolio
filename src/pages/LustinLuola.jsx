@@ -24,7 +24,7 @@ function LustinLuolaPage() {
             <p>React, Vite, JavaScript, HTML&CSS</p>
 
             <h2>GitHub Repository:</h2>
-            <Link to="https://github.com/nicopasma/portfolio" className="LinkText"> Github.com/nicopasma/portfolio </Link>
+            <Link to="https://github.com/nicolust/portfolio" className="LinkText"> Github.com/nicolust/portfolio </Link>
 
             <h2>Status</h2>
             <p>Solo project, In development</p>
