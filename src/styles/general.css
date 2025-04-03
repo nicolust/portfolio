@@ -43,9 +43,9 @@ p, .LinkText {
 .TextsNoSidebar {
     padding-left: 5%;
     flex-direction: column; /* Stacks items vertically */
-    width: 800%;
-    padding-right: 10%;
-    padding-left: 10%;
+    width: 70vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
 }
 
 .TextsNoSidebar p, .PortfolioItem p {
@@ -63,8 +63,13 @@ p, .LinkText {
     justify-content: right;
     align-items: right;
     display: flex;
+    word-break: break-all;
     width: 20vw;
     flex-direction: column;
+    background-color: #f6cea5;
+    border-radius: 16px;
+    border: solid;
+    margin: 2px;
 }
 
 .sidebar button {

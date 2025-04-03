@@ -34,6 +34,11 @@ function HomePage() {
 
           <div className="NewsBox">
 
+            <h4>3.4.2025</h4>
+            <p>Project -pages updated. Sidebar now has borders and a background to make it stand out from the 
+              rest of the "Contents" -div
+            </p>
+
             <h4>2.4.2025</h4>
             <p>The website is now public on GitHub pages! Project cards
               added to the "Portfolio" -page, for Lustin Luola and for 

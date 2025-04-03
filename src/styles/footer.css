@@ -6,8 +6,8 @@
 
   background-color: #f6cea5;
   margin-top: 16px;
-  width: 80%;
-  margin-left: 10%;
+  width: 80vw;
+  margin-left: 10vw;
 
   border-style: solid;
   border-radius: 16px;
@@ -24,6 +24,6 @@
 
   .FooterBox {
     width: 92vw;
-    margin-left: 3vw;
+    margin-left: 4vw;
   }
 }

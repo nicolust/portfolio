@@ -20,7 +20,7 @@ function LustinLuolaPage() {
 
           </div>
           <div className="sidebar">
-            <h2>Tools used:</h2>
+            <h2>Tools & Languages:</h2>
             <p>React, Vite, JavaScript, HTML&CSS</p>
 
             <h2>GitHub Repository:</h2>
@@ -32,8 +32,21 @@ function LustinLuolaPage() {
 
           <div className="TextsNoSidebar">
           <h2>Devlog</h2>
-          <p>I started developing this website at the end of March 2025.
-            The first time I published this site on GitHub Pages took place on April 2nd, 2025.
+          <p>
+            <b>3.4.2025</b><br></br>
+
+            First 2 projects added to the portfolio: "Lustin Luola" and "Shoot 'em up -game". The first version of the website is 
+            getting close to being finished. The CSS has to be cleaned up, since it's very unconventional.
+            <br></br>
+
+            <b>2.4.2025</b><br></br>
+            The first version of the website was published on GitHub pages.
+            <br></br>
+
+            <b>22.3.2025</b><br></br>
+            I started developing this website, and pushed the initial commit to GitHub. 
+            I wanted to use "Doto" -font family from Google Fonts. I tried to make the website look both personal 
+            and professional.
 
           </p>
           </div>

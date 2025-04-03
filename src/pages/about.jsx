@@ -41,10 +41,10 @@ function AboutPage() {
           <button onClick={() => window.location.href = "https://www.linkedin.com/in/nico-lust-ab8688339"}>
                 LinkedIn
                 </button>
-            <button onClick={() => window.location.href = "https://github.com/nicopasma"}>
+            <button onClick={() => window.location.href = "https://github.com/nicolust"}>
                 GitHub
                 </button>
-                <p>Let's work together! <br></br> Contact me: <br></br> nicoakseli@gmail.com</p>
+                <p>Contact: <br></br> nicoakseli@gmail.com</p>
           </div>
         </div>
       </div>
