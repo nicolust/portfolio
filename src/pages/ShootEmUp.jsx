@@ -1,39 +1,41 @@
 import { useState } from "react";
 import NavigationBar from "../components/navigation";
 import '../styles/general.css';
-import LustinLuola2 from "../assets/LustinLuola2.png"
+import ShootEmUp1 from "../assets/ShootEmUp1.png"
 import { Link, useLocation } from "react-router-dom";
 
-function LustinLuolaPage() {
+function ShootEmUpPage() {
     return (
       <div>
         <div className="mainScreen"></div>
         <div className="Content">
         <div className="Texts">
             <div className="Title">
-            <h1>Lustin Luola</h1>
+            <h1>Shoot 'em up -game</h1>
             </div>
 
-            <img src={LustinLuola2} className="ProjectPhoto"></img>
+            <img src={ShootEmUp1} className="ProjectPhoto"></img>
            
 
 
           </div>
           <div className="sidebar">
             <h2>Tools used:</h2>
-            <p>React, Vite, JavaScript, HTML&CSS</p>
+            <p>Unity Engine, C#</p>
 
             <h2>GitHub Repository:</h2>
-            <Link to="https://github.com/nicolust/portfolio" className="LinkText"> Github.com/nicolust/portfolio </Link>
+            <Link to="https://github.com/luttinenjoni/TopDownGame" className="LinkText"> Github.com/luttinenjoni/TopDownGame </Link>
 
             <h2>Status:</h2>
-            <p>Solo project, In development</p>
+            <p>Group project, In development, Scheduled for release in May 2025.</p>
+            <h2>Game download:</h2>
+            <p>TBA</p>
+          
           </div>
 
           <div className="TextsNoSidebar">
           <h2>Devlog</h2>
-          <p>I started developing this website at the end of March 2025.
-            The first time I published this site on GitHub Pages took place on April 2nd, 2025.
+          <p>The development of this game began in March 2025. It is currently being developed by a team of 4 people.
 
           </p>
           </div>
@@ -42,4 +44,4 @@ function LustinLuolaPage() {
     )
   }
 
-export default LustinLuolaPage;
+export default ShootEmUpPage;

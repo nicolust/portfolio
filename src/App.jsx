@@ -7,6 +7,7 @@ import './styles/App.css';
 import PortfolioPage from "./pages/portfolio";
 
 import LustinLuolaPage from "./pages/LustinLuola";
+import ShootEmUpPage from "./pages/ShootEmUp";
 
 import { HashRouter } from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/works" element={<PortfolioPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/works/lustinluola" element={<LustinLuolaPage />} />
+          <Route path="/works/shootemup" element={<ShootEmUpPage />} />
         </Routes>
       <Footer />
     </HashRouter>

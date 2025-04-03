@@ -21,7 +21,13 @@ function PortfolioPage () {
                     <h2>Shoot 'em up -game</h2>
                     <h3>Group, Desktop</h3>
                     <p>A 2D Shoot 'em up -game made with Unity Engine by a group of 4 people! Currently in development.</p>
-                    <button>Read more</button>
+                    
+                    <Link to="/works/shootemup" className="nav-link">
+                        <button>
+                        Read more
+                        </button>
+                      </Link>
+
                 </div>
 
                 <div className="PortfolioItem">
@@ -31,7 +37,7 @@ function PortfolioPage () {
                     <p>A website portfolio to showcase my works on the field of IT. Created using React with Vite and JavaScript. </p>
 
                     <Link to="/works/lustinluola" className="nav-link">
-                        <button onClick={(scrollToTop)}>
+                        <button>
                         Read more
                         </button>
                       </Link>
