@@ -33,6 +33,12 @@ function HomePage() {
           <h2>What's new?</h2>
 
           <div className="NewsBox">
+            <h4>19.4.2025</h4>
+
+            <p>The sixth week out of the eight weeks of the Shoot 'Em up -game development
+              is now in progress. I have been actively working on the programming of the game, and I have focused 
+              mainly on the game instead of this website, as we are making the game for a school course.
+            </p>
 
             <h4>3.4.2025</h4>
             <p>Project -pages updated. Sidebar now has borders and a background to make it stand out from the 

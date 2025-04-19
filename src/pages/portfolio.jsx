@@ -1,6 +1,6 @@
 import React from "react";
 import LustinLuola from "../assets/LustinLuola2.png"
-import ShootEmUp from "../assets/ShootEmUp1.png"
+import ShootEmUp from "../assets/ShootEmUp2.png"
 import { Link, useLocation } from "react-router-dom";
 
 function PortfolioPage () {

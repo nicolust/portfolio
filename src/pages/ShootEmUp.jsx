@@ -1,7 +1,7 @@
 import { useState } from "react";
 import NavigationBar from "../components/navigation";
 import '../styles/general.css';
-import ShootEmUp1 from "../assets/ShootEmUp1.png"
+import ShootEmUp1 from "../assets/ShootEmUp2.png"
 import { Link, useLocation } from "react-router-dom";
 
 function ShootEmUpPage() {
