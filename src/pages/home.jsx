@@ -5,17 +5,20 @@ import '../styles/general.css'
 function HomePage() {
     return (
       <div>
-        <div className="mainScreen"></div>
         <div className="Content">
           <div className="TextsNoSidebar">
             <div className="Title"><h1>Hello world!</h1></div>
             <p>
-              <b>Lustin Luola</b> is a website created by me, Nico Lust, to showcase my
-              works on the field of <b>Information Technology.</b>
+              Welcome! My name is <b>Nico Lust</b>. I am a Finnish 20-year-old BBA student from Oulu, Finland. 
+              I study software development, web design and programming. This website is my personal portfolio. 
             </p>
+
+          <br>
+          </br>
 
           <h2>What does this website include?</h2>
           <p>
+            <br></br>
             <b>Portfolio: </b>
             A showcase of my previous projects. This contains my solo projects AND group projects, which I have 
             taken part of. Most of the projects on my portfolio will have a link to their 
@@ -33,6 +36,18 @@ function HomePage() {
           <h2>What's new?</h2>
 
           <div className="NewsBox">
+
+            <h4>30.7.2025</h4>
+            <p>It has been a while. I have been working on my first internship for the summer, so I haven't really had time to update 
+              these pages. I also started working on a "To do -list" -app as a side project, but I have put that on hold because of the internship.
+            </p>
+
+            <h4>30.5.2025</h4>
+
+            <p>
+              The Shoot 'Em up -game has been released on itch.io! The project page has been updated with a link to the game.'
+            </p>
+
             <h4>19.4.2025</h4>
 
             <p>The sixth week out of the eight weeks of the Shoot 'Em up -game development

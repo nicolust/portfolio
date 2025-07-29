@@ -27,22 +27,24 @@
 }
 
 .nav-button h1 {
-    font-size: 2vw;
+    font-size: 2.5vw;
     font-family: "Doto", sans-serif;
-    -webkit-text-stroke: 0.5px;
+    -webkit-text-stroke: 1px;
 }
 
 .pagename {
     font-family: "Doto", sans-serif;
     color: black;
-    -webkit-text-stroke: 1px;
+    -webkit-text-stroke: 1.5px;
     padding: 10px;
     background-color: #f6cea5;
     display: flex;
     justify-content: center;
     width: 20vw;
-
     border-style: solid;
+    border-radius: 6px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .nav-button.active {

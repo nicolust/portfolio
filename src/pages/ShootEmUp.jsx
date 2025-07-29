@@ -7,11 +7,10 @@ import { Link, useLocation } from "react-router-dom";
 function ShootEmUpPage() {
     return (
       <div>
-        <div className="mainScreen"></div>
         <div className="Content">
         <div className="Texts">
             <div className="Title">
-            <h1>Shoot 'em up -game</h1>
+            <h1>Taika: 2D Top-Down shooter</h1>
             </div>
 
             <img src={ShootEmUp1} className="ProjectPhoto"></img>
@@ -27,15 +26,30 @@ function ShootEmUpPage() {
             <Link to="https://github.com/luttinenjoni/TopDownGame" className="LinkText"> Github.com/luttinenjoni/TopDownGame </Link>
 
             <h2>Status:</h2>
-            <p>Group project, In development, Scheduled for release in May 2025.</p>
+            <p>Group project, Released in May 2025.</p>
             <h2>Game download:</h2>
-            <p>TBA</p>
+            <Link to="https://nicoakseli.itch.io/taika" className="LinkText">nicoakseli.itch.io/taika</Link>
           
           </div>
 
           <div className="TextsNoSidebar">
+          <h2>Briefly</h2>
+          <iframe width="device-width" height="315" src="https://www.youtube.com/embed/Mq4hflJ2W2A?si=j_Gr8h5bzIIJ5Ybe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <p>
+            This project was created in roughly 8 weeks by a group of 4 people. We had no prior experience in game development. The game is a 2D shoot 'em up -game
+            made with Unity Engine and C#. The goal of the game is to shoot all of the enemies until they have 0HP left. There are 3 levels + 1 boss level.
+            I did mostly programming in this project, and I learned a lot of project management and game development. I learned the use of
+            HackNPlan and Scrum. 
+            I was also responsible for the publishing of this project. I published the game for Windowson itch.io. <br></br><br></br>
+            The grade I received for this project was 4.
+          </p>
+
           <h2>Devlog</h2>
           <p>
+            <b>2.5.2025</b><br></br>
+            The game was released on itch.io. We had a lot of fun developing this game, and we learned a lot about Unity Engine and C#. 
+            We held a presentation about ar game at the University of Applied Sciences. 
+            <br></br>
             <b>27.3.2025</b><br></br>
             After my teammate, Joni, had programmed us some basic player movement and shooting mechanics, I 
             programmed us some basic enemies, who chase the player and shoot at the player. I also 

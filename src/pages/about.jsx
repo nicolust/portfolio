@@ -6,7 +6,6 @@ import Hakemuskuva from "../assets/Hakemuskuva.jpg"
 function AboutPage() {
     return (
       <div>
-        <div className="mainScreen"></div>
         <div className="Content">
         <div className="Texts">
             <div className="Title">
@@ -24,15 +23,14 @@ function AboutPage() {
              on my own side projects too, such as on this page! I am always eager to learn more.
             </p>
             <h2>Programming skills</h2>
-            <p>At OUAS, I learned the basics of programming with <b>Python.</b> I learned the design, programming and
-            development of websites with <b>JavaScript</b> using frameworks, such as <b>React</b> and <b>React Native</b>. 
-            <br></br><br></br>For styling, I am familiar with the use of <b>Bootstrap.</b> For game development, I learned the basics of <b>C# </b> 
-             and learned to use it in practice in a game project, I made in a group of 4 people using Unity Engine.
-            </p>
+            <p>I have experience with <b>Python,</b> <b>JavaScript,</b> and <b>C#.</b> I know how to use <b>React</b> and <b>React Native</b> 
+            in software development.</p>
             <h2>Language skills</h2>
             <p>
-              My mother tongue is <b>Finnish.</b> I also speak <b>English</b> fluently. I can have simple conversations 
-              in <b>Swedish</b> and <b>German.</b>
+              <b>Finnish:</b> Native    <br></br>
+              <b>English:</b> Fluent    <br></br>
+              <b>Swedish:</b> Basics    <br></br>
+              <b>German:</b> Basics    <br></br>
               </p>
 
           </div>

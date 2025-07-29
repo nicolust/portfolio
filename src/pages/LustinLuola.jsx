@@ -7,7 +7,6 @@ import { Link, useLocation } from "react-router-dom";
 function LustinLuolaPage() {
     return (
       <div>
-        <div className="mainScreen"></div>
         <div className="Content">
         <div className="Texts">
             <div className="Title">

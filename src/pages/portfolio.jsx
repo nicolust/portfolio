@@ -9,7 +9,6 @@ function PortfolioPage () {
       };
     
     return (
-        <div className="mainScreen">
         <div className="PortfolioContent">
             <div className="Title">
                 <h1>Portfolio</h1>
@@ -17,10 +16,23 @@ function PortfolioPage () {
             <div className="PortfolioItems">
 
                 <div className="PortfolioItem">
+                    <h2>To Do -List App</h2>
+                    <h3>Solo, Mobile</h3>
+                    <p>A mobile application for creating and managing "To Do" -lists and tasks. Created using React Native and Firebase.</p>
+                    
+                    
+                        <button>
+                        In development.
+                        </button>
+                      
+                </div>
+
+
+                <div className="PortfolioItem">
                     <img src={ShootEmUp}></img>
-                    <h2>Shoot 'em up -game</h2>
+                    <h2>Taika: 2D Top-Down Shooter</h2>
                     <h3>Group, Desktop</h3>
-                    <p>A 2D Shoot 'em up -game made with Unity Engine by a group of 4 people! Currently in development.</p>
+                    <p>A 2D Shoot 'em up -game made with Unity Engine and C# by a group of 4 people. I learned project management and game development.</p>
                     
                     <Link to="/works/shootemup" className="nav-link">
                         <button>
@@ -34,7 +46,9 @@ function PortfolioPage () {
                     <img src={LustinLuola}></img>
                     <h2>Lustin Luola</h2>
                     <h3>Solo, Web</h3>
-                    <p>A website portfolio to showcase my works on the field of IT. Created using React with Vite and JavaScript. </p>
+                    <p>A website portfolio to showcase my works on the field of IT. Created using React with Vite and JavaScript. 
+                         Published on GitHub pages.
+                    </p>
 
                     <Link to="/works/lustinluola" className="nav-link">
                         <button>
@@ -47,7 +61,6 @@ function PortfolioPage () {
 
             </div>
                 </div>
-            </div>
     );
 };
 

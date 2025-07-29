@@ -11,8 +11,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 80vw;
-    margin-left: calc(10vw - 2px);
+    margin-left: calc(10vw - 1px);
     border-radius: 16px;
+    margin-top: 90px;
 }
 
 .Texts {
@@ -32,7 +33,7 @@ p, .LinkText {
 
 .Texts h1 {
     font-family: "Doto", sans-serif;
-    -webkit-text-stroke: 1px;
+    -webkit-text-stroke: 2px;
 }
 
 .Texts h2 {
@@ -41,11 +42,10 @@ p, .LinkText {
 }
 
 .TextsNoSidebar {
-    padding-left: 5%;
-    flex-direction: column; /* Stacks items vertically */
-    width: 70vw;
-    padding-right: 5vw;
     padding-left: 5vw;
+    flex-direction: column; /* Stacks items vertically */
+    padding-right: 5vw;
+    padding-top: 2vw;
 }
 
 .TextsNoSidebar p, .PortfolioItem p {
@@ -54,23 +54,19 @@ p, .LinkText {
     font-size: 18px;
 }
 
-.TextsNoSidebar h1, .TextsNoSidebar h2, .sidebar h2, h2 {
-    font-family: "Doto", sans-serif;
-    -webkit-text-stroke: 1px;
-}
-
 .sidebar {
     justify-content: right;
     align-items: right;
     display: flex;
     word-break: break-all;
-    width: 20vw;
+    width: 29%;
     flex-direction: column;
     background-color: #f6cea5;
     border-radius: 16px;
     border: solid;
     margin-top: 16px;
     margin-bottom: 16px;
+    padding: 16px;
 }
 
 .sidebar button {
@@ -121,13 +117,16 @@ button:hover {
     width: 80vw;
     margin-left: 10vw;
     border-radius: 16px;
+    margin-top: 90px;
+    padding-top: 2vw;
 }
 
 .Title {
     width: 100%;
     text-align: center;
     font-family: "Doto", sans-serif;
-    -webkit-text-stroke: 1px;
+    -webkit-text-stroke: 2px;
+    padding: 8px;
 }
 
 .PortfolioItems {
@@ -152,7 +151,7 @@ button:hover {
 }
 
 .PortfolioItem img {
-    width: 24vw;
+    width: 22.5vw;
     border-radius: 16px;
 }
 
@@ -211,6 +210,6 @@ button:hover {
             margin: 0%;
         }
         .sidebar {
-            width: 90.5vw;
+            width: 89vw;
         }
 }
