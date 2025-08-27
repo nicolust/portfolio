@@ -27,7 +27,7 @@ function HomePage() {
             <br></br><br></br>
 
             <b>About me: </b>
-            Information about who I am and what I can do. This page also contains the links to my GitHub and LinkedIn -profiles. 
+            My skills, education and work experience listed. 
 
 
 

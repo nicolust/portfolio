@@ -19,6 +19,7 @@
 .Texts {
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-left: 1vw;
     flex-direction: column; /* Stacks items vertically */
     width: 55vw;
@@ -34,11 +35,24 @@ p, .LinkText {
 .Texts h1 {
     font-family: "Doto", sans-serif;
     -webkit-text-stroke: 2px;
+    margin: 12px;
 }
 
 .Texts h2 {
     font-family: "Doto", sans-serif;
     -webkit-text-stroke: 1px;
+}
+.Texts h3 {
+    font-family: "Doto", sans-serif;
+    -webkit-text-stroke: 1px;
+}
+
+.Texts p {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .TextsNoSidebar {

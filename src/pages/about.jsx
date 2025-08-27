@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { ReactCountryFlag } from "react-country-flag";
 import NavigationBar from "../components/navigation";
 import '../styles/general.css';
 import Hakemuskuva from "../assets/Hakemuskuva.jpg"
@@ -9,30 +10,51 @@ function AboutPage() {
         <div className="Content">
         <div className="Texts">
             <div className="Title">
-            <h1>Hi! I'm Nico </h1>
+            <h1>Work experience </h1>
             </div>
-            <p>Hello world! My name is Nico Lust. I am a Finnish 20-year old student from Oulu, Finland. I am currently
-                studying my second year of <b>Business Information Systems</b> in <b>Oulu
-                University of Applied Sciences.</b> I should graduate on the December of 2026.
-                I am interested in programming, web design and software development.
-            </p>
-            <h2>What tools do I use?</h2>
-            <p>In my studies I have learned the use of <b>HTML and CSS</b>, <b>Azure</b>, <b>WordPress</b>, <b>HackNPlan</b>,
-              <b> Visual Studio Code</b>, <b>Figma, </b><b>WinSCP</b> and <b>Unity Engine</b>. I have also learned to manage databases
-             with <b>Firebase</b> and <b>MySQL</b>. <br></br><br></br>I have learned to use these tools independently
-             on my own side projects too, such as on this page! I am always eager to learn more.
-            </p>
-            <h2>Programming skills</h2>
-            <p>I have experience with <b>Python,</b> <b>JavaScript,</b> and <b>C#.</b> I know how to use <b>React</b> and <b>React Native</b> 
-            in software development.</p>
-            <h2>Language skills</h2>
+            <h2>Intern</h2>
             <p>
-              <b>Finnish:</b> Native    <br></br>
-              <b>English:</b> Fluent    <br></br>
-              <b>Swedish:</b> Basics    <br></br>
-              <b>German:</b> Basics    <br></br>
+              <b>Oulu University of Applied Sciences</b> <br></br>
+              <b>June 2025 - August 2025</b>
+              <br></br>
+              My tasks included C# Programming in Unity Engine. I worked on a virtual 3D Gallery project. 
+              More specifically, on a tool that allows users to create their own 3D galleries in the Unity Engine more easily using custom inspectors.
+
+            </p>
+            <h1>Education</h1>
+              <h2>BBA, Business Information Systems</h2>
+              <p>
+                <b>Oulu University of Applied Sciences</b> <br></br>
+                August 2023 - estimated December 2026
+                <br></br>
+                <br></br>
               </p>
 
+              <h2>Finnish matriculation examination</h2>
+              <p>
+                <b>Pellon lukio</b> <br></br>
+                August 2020 - June 2023
+                <br></br>
+              </p>
+
+            <h1>Skills</h1>
+            <p>
+              <b>Programming languages:</b> Python, JavaScript, C#, HTML&CSS, SQL <br></br>
+              <b>Frameworks & Libraries:</b> React, React Native, Node.js, Unity Engine <br></br>
+              <b>Databases:</b> MySQL, Firebase <br></br>
+              <b>Tools & Platforms:</b> Git, GitHub, VS Code, Figma, Azure <br></br>
+              <b>Methodologies:</b> Agile, Scrum <br></br>
+              <b>Other skills:</b> Web design, UI/UX design, Game development
+            </p>
+            <h1>Language skills</h1>
+            <p>
+              <b>Finnish:</b> Native <ReactCountryFlag countryCode="FI" svg></ReactCountryFlag>    <br></br>
+              <b>English:</b> Fluent <ReactCountryFlag countryCode="GB" svg></ReactCountryFlag>   <br></br>
+              <b>Swedish:</b> Basics <ReactCountryFlag countryCode="SE" svg></ReactCountryFlag>   <br></br>
+              <b>German:</b> Basics <ReactCountryFlag countryCode="DE" svg></ReactCountryFlag>   <br></br>
+              </p>
+              <br></br>
+          
           </div>
           <div className="sidebar">
             <img src={Hakemuskuva}></img>
