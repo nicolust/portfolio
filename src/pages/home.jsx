@@ -1,16 +1,18 @@
 import { useState } from "react";
 import NavigationBar from "../components/navigation";
 import '../styles/general.css'
+import etusivu0 from "../assets/etusivu0.jpg"
+import etusivu1 from "../assets/etusivu1.jpg"
 
 function HomePage() {
     return (
       <div>
         <div className="Content">
-          <div className="TextsNoSidebar">
+          <div className="Texts">
             <div className="Title"><h1>Hello world!</h1></div>
             <p>
-              Welcome! My name is <b>Nico Lust</b>. I am a Finnish 20-year-old BBA student from Oulu, Finland. 
-              I study software development, web design and programming. This website is my personal portfolio. 
+              My name is <b>Nico Lust</b>. I am a Finnish BBA student at Oulu University of Applied Sciences. 
+              I study programming, software development and web and game design. I am currently in my third semester.
             </p>
 
           <br>
@@ -20,15 +22,13 @@ function HomePage() {
           <p>
             <br></br>
             <b>Portfolio: </b>
-            A showcase of my previous projects. This contains my solo projects AND group projects, which I have 
-            taken part of. Most of the projects on my portfolio will have a link to their 
-            GitHub repository, if it is made public.
+            A showcase of my previous projects.
 
             <br></br><br></br>
 
             <b>About me: </b>
             My skills, education and work experience listed. 
-
+            <br></br><br></br>
 
 
           </p>
@@ -76,6 +76,10 @@ function HomePage() {
           </div>
 
           </div>
+          <div className="sidebar">
+                      <img src={etusivu0}></img>
+                      <p><i>Programming is my passion.</i></p>
+            </div>
         </div>
       </div>
     )

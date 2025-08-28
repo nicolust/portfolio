@@ -70,6 +70,7 @@ p, .LinkText {
 
 .sidebar {
     justify-content: right;
+    align-self: right;
     align-items: right;
     display: flex;
     word-break: break-all;
@@ -108,7 +109,7 @@ button:hover {
 }
 
 .NewsBox {
-    height: 120px;
+    height: 160px;
     border: solid;
     border-radius: 16px;
     overflow: auto;
@@ -224,6 +225,6 @@ button:hover {
             margin: 0%;
         }
         .sidebar {
-            width: 89vw;
+            width: 91.5vw;
         }
 }
