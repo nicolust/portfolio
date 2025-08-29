@@ -53,6 +53,18 @@
     font-weight: bold;
   }
 
+/* Show */
+.navbar-show {
+  transform: translateY(0);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Hide */
+.navbar-hide {
+  transform: translateY(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+
 @media only screen and (max-width: 600px) {
     .pagename {
         display: none;
