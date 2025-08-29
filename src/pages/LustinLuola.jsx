@@ -19,11 +19,17 @@ function LustinLuolaPage() {
 
           </div>
           <div className="sidebar">
+            <br></br>
             <h2>Tools & Languages:</h2>
             <p>React, Vite, JavaScript, HTML&CSS</p>
 
-            <h2>GitHub Repository:</h2>
-            <Link to="https://github.com/nicolust/portfolio" className="LinkText"> Github.com/nicolust/portfolio </Link>
+            <button onClick={() => window.location.href = "https://github.com/nicolust/portfolio"}>
+                GitHub Repository
+                </button>
+              <button onClick={() => window.location.href = "https://nicolust.github.io/portfolio/"}>
+                Link to site
+                </button>
+                <br></br>
 
             <h2>Status:</h2>
             <p>Solo project, In development</p>

@@ -19,16 +19,22 @@ function ShootEmUpPage() {
 
           </div>
           <div className="sidebar">
-            <h2>Tools & Languages:</h2>
+            <br></br>
+            <h2>Tools:</h2>
             <p>Unity Engine, C#, Scrum</p>
 
-            <h2>GitHub Repository:</h2>
-            <Link to="https://github.com/luttinenjoni/TopDownGame" className="LinkText"> Github.com/luttinenjoni/TopDownGame </Link>
+            
+            <button onClick={() => window.location.href = "https://github.com/luttinenjoni/TopDownGame"}>
+                GitHub Repository
+                </button>
+              <button onClick={() => window.location.href = "https://nicoakseli.itch.io/taika"}>
+                Game download
+                </button>
+                <br></br>
+            
 
             <h2>Status:</h2>
-            <p>Group project, Released in May 2025.</p>
-            <h2>Game download:</h2>
-            <Link to="https://nicoakseli.itch.io/taika" className="LinkText">nicoakseli.itch.io/taika</Link>
+            <p>Released in May 2025.</p>
           
           </div>
 
