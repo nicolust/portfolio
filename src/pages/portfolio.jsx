@@ -16,13 +16,24 @@ function PortfolioPage () {
             <div className="PortfolioItems">
 
                 <div className="PortfolioItem">
+                    <h2>Movie suggestion app</h2>
+                    <h3>Group, Web</h3>
+                    <p>A web application that suggests movies for the user. 
+                        Created with React, Node.js, Firebase, TMDB API and deployed to an Azure App Service.
+                    </p>
+                    <button>
+                        In development.
+                    </button>
+                </div>
+
+                <div className="PortfolioItem">
                     <h2>To Do -List App</h2>
                     <h3>Solo, Mobile</h3>
                     <p>A mobile application for creating and managing "To Do" -lists and tasks. Created using React Native and Firebase.</p>
                     
                     
                         <button>
-                        In development.
+                        (On hold)
                         </button>
                       
                 </div>

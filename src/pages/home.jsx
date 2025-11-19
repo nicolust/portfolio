@@ -37,6 +37,11 @@ function HomePage() {
 
           <div className="NewsBox">
 
+            <h4>19.11.2025</h4>
+            <p>I have put my personal projects on hold while I work on school projects. 
+              I am also looking for an internship for next year. More about that on my LinkedIn!
+            </p>
+
             <h4>30.7.2025</h4>
             <p>It has been a while. I have been working on my first internship for the summer, so I haven't really had time to update 
               these pages. I also started working on a "To do -list" -app as a side project, but I have put that on hold because of the internship.
