@@ -37,6 +37,11 @@ function HomePage() {
 
           <div className="NewsBox">
 
+            <h4>29.11.2025</h4>
+            <p>Added the first photo of the moviehub -app project. It is still the only project that I am currently 
+              working on alongside applying for internships. Personal projects are on hold.
+            </p>
+
             <h4>19.11.2025</h4>
             <p>I have put my personal projects on hold while I work on school projects. 
               I am also looking for an internship for next year. More about that on my LinkedIn!

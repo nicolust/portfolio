@@ -1,4 +1,5 @@
 import React from "react";
+import MovieHub from "../assets/moviehubkuva1.jpg"
 import LustinLuola from "../assets/LustinLuola2.png"
 import ShootEmUp from "../assets/ShootEmUp2.png"
 import { Link, useLocation } from "react-router-dom";
@@ -16,6 +17,7 @@ function PortfolioPage () {
             <div className="PortfolioItems">
 
                 <div className="PortfolioItem">
+                    <img src={MovieHub}></img>
                     <h2>Movie suggestion app</h2>
                     <h3>Group, Web</h3>
                     <p>A web application that suggests movies for the user. 
